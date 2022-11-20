@@ -1,0 +1,13 @@
+body {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #eae2b7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #d62828;
+    background-color: #003049;
+    padding: 30px;
+}
+
