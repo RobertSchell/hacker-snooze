@@ -34,8 +34,8 @@ let getStories = async() => {
     console.log(data);
     for (let i = 0; i < 100; i++){
         fetch(encodeURI(`https://hacker-news.firebaseio.com/v0/item/${data[i]}.json?print=pretty`))
-    .then(function(response2){
-        return response2.json();
+    .then(function(response){
+        return response.json();
         
     })
     .then(function(data){ 
